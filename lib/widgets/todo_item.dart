@@ -13,7 +13,7 @@ class TodoListItem extends StatelessWidget {
     return FlatButton.icon(
       icon: ImageIcon(AssetImage(assetPath),
           //color: hexToColor('#e12f81'), size: 40),
-      height: 40,
+      height: 30,
       minWidth: 50,
       onPressed: () {
         action(context);
